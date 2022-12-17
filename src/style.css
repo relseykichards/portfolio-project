@@ -1,11 +1,42 @@
-h1 {
-  font-family: "Unbounded", cursive;
-  font-weight: 500;
-  font-size: 48px;
+:root {
+  --heading-font: "Unbounded", cursive;
+  --paragraph-font: "Alegreya", serif;
+  --main-color: #d8f0cc;
+  --secondary-color: #7b2d55;
 }
 
-p {
-  font-family: "Alegreya", serif;
-  font-weight: 400;
-  font-size: 20px;
+h1 {
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-family: var(--heading-font);
+  font-weight: 200;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+}
+
+.hero {
+  background-color: var(--main-color);
+  padding: 100px;
+  margin-top: 50px;
+}
+
+.contact-button {
+  outline: var(--secondary-color) solid 2px;
+  background: transparent;
+  color: var(--secondary-color);
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  margin-top: 50px;
 }
