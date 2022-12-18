@@ -32,7 +32,7 @@ footer {
 .hero {
   background-color: var(--main-color);
   padding: 100px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .contact-button {
@@ -40,9 +40,10 @@ footer {
   background: transparent;
   color: var(--secondary-color);
   display: block;
-  margin: 15px auto;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 150px;
-  margin-top: 50px;
 }
 
 .navbar {
@@ -59,4 +60,5 @@ footer {
   font-weight: 200;
   font-size: 24px;
   text-align: center;
+  margin-top: 20px;
 }
