@@ -3,6 +3,7 @@
   --paragraph-font: "Alegreya", serif;
   --main-color: #d8f0cc;
   --secondary-color: #7b2d55;
+  --highlight-color: #b97899;
 }
 
 h1 {
@@ -38,5 +39,14 @@ footer {
   display: block;
   margin: 0 auto;
   width: 150px;
+  margin-top: 50px;
+}
+
+.navbar {
+  font-family: var(--heading-font);
+  font-weight: lighter;
+}
+
+.weather-image {
   margin-top: 50px;
 }
