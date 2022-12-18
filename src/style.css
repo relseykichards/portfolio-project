@@ -14,7 +14,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font);
   font-weight: 200;
   font-size: 24px;
@@ -24,6 +25,8 @@ h3 {
 footer {
   text-align: center;
   margin: 20px;
+  font-family: var(--paragraph-font);
+  line-height: 5px;
 }
 
 .hero {
@@ -49,4 +52,15 @@ footer {
 
 .weather-image {
   margin-top: 50px;
+}
+
+.app-description {
+  line-height: 30px !important;
+}
+
+.app-heading {
+  font-family: var(--heading-font);
+  font-weight: 200;
+  font-size: 24px;
+  text-align: center;
 }
