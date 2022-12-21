@@ -3,7 +3,7 @@
   --paragraph-font: "Alegreya", serif;
   --main-color: #d8f0cc;
   --secondary-color: #7b2d55;
-  --highlight-color: #b97899;
+  --highlight-color: #e7d2dc;
 }
 
 h1 {
@@ -14,7 +14,8 @@ h1 {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font);
   font-weight: 200;
   font-size: 24px;
@@ -45,6 +46,17 @@ footer {
   width: 150px;
 }
 
+.contact-button-about {
+  outline: var(--secondary-color) solid 2px;
+  background: transparent;
+  color: var(--secondary-color);
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
 .navbar {
   font-family: var(--heading-font);
   font-weight: lighter;
@@ -63,5 +75,16 @@ footer {
 }
 
 .portrait-photo {
-  max-width: 300px;
+  max-width: 400px;
+}
+
+.paragraph {
+  font-family: var(--paragraph-font);
+  font-size: 18px;
+}
+
+.hero-about {
+  background-color: var(--highlight-color);
+  padding: 100px;
+  margin-top: 70px;
 }
