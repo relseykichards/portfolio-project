@@ -4,6 +4,7 @@
   --main-color: #d8f0cc;
   --secondary-color: #7b2d55;
   --highlight-color: #e7d2dc;
+  --third-color: #e1da91;
 }
 
 h1 {
@@ -85,6 +86,12 @@ footer {
 
 .hero-about {
   background-color: var(--highlight-color);
+  padding: 100px;
+  margin-top: 70px;
+}
+
+.hero-work {
+  background-color: var(--third-color);
   padding: 100px;
   margin-top: 70px;
 }
