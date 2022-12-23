@@ -102,3 +102,11 @@ footer {
   padding: 100px;
   margin-top: 70px;
 }
+
+.contact-container {
+  background-color: var(--main-color);
+}
+
+.contact-heading {
+  color: var(--secondary-color);
+}
