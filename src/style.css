@@ -34,7 +34,10 @@ footer {
   text-align: center;
   margin: 20px;
   font-family: var(--paragraph-font);
+  font-size: 20px;
   line-height: 5px;
+  background-color: var(--main-color);
+  padding: 30px;
 }
 
 .hero {
